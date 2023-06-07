@@ -1,0 +1,24 @@
+2023-06-07 11:15:38.599  INFO 36584 --- [main] com.homework.blogapi.BlogapiApplication  : Starting BlogapiApplication using Java 20.0.1 on Angel with PID 36584 (C:\Users\borja\IdeaProjects\blogapi\target\classes started by borja in C:\Users\borja\IdeaProjects\blogapi)
+2023-06-07 11:15:38.602 DEBUG 36584 --- [main] com.homework.blogapi.BlogapiApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-06-07 11:15:38.602  INFO 36584 --- [main] com.homework.blogapi.BlogapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-07 11:15:39.081  INFO 36584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-07 11:15:39.121  INFO 36584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2023-06-07 11:15:39.594  INFO 36584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-07 11:15:39.602  INFO 36584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-07 11:15:39.602  INFO 36584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-07 11:15:39.689  INFO 36584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-07 11:15:39.689  INFO 36584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2023-06-07 11:15:39.804  INFO 36584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-07 11:15:39.842  INFO 36584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-06-07 11:15:39.960  INFO 36584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-07 11:15:40.044  INFO 36584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-07 11:15:40.156  INFO 36584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-07 11:15:40.168  INFO 36584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-06-07 11:15:40.623  INFO 36584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-07 11:15:40.630  INFO 36584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-07 11:15:40.879  WARN 36584 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-07 11:15:41.155  INFO 36584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-07 11:15:41.163  INFO 36584 --- [main] com.homework.blogapi.BlogapiApplication  : Started BlogapiApplication in 2.886 seconds (JVM running for 3.177)
+2023-06-07 11:15:47.922  INFO 36584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-07 11:15:47.922  INFO 36584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-07 11:15:47.923  INFO 36584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
