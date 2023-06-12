@@ -1,1 +1,32 @@
-## Annotation Notes
+## Spring notes
+- Spring boot makes getting started with spring both quick and easy
+- Spring boot has an extremely large amount of features, even though it is considered easy
+- Auto configuration is super simple to set up in your application
+- Spring boot makes it easy to create stand-alone production grade spring based applications that can simply run
+- process for running java web applications: package application, choose and download webserver, configure webserver, and deploy application and start webserver
+- six key areas of the spring framework: core, web, aop, data access, integration, testing
+- at the center of spring core is dependency injection
+- objects are dependent on other objects to function(think OOP)
+- dependency injection is about dealing with the way objects fulfill their depenedent objects
+- integration is all about making different systems and applications work together
+- a microservice is a small application that is well scoped to a single purpose or domain
+- advantages of using spring: rock solid and well engineered, stood the test of time, huge community, well liked, large talent pool, and a wealth of existing knowledge, very actively developed, built in ide support, and scalable
+- disadvantages of using spring: too much magic, steep learning curve, increases the size of your deliverable, hard to debug, adds memory overhead, complexity has grown over time, spring can be too configurable, spring is "big", and springs community projects are hit or miss
+- spring can be perfect for some projects, however it can also be a handicap in other projects
+- model: representation of data in a system, view: responsible for displaying data, controller: directing incoming user requests
+- REST Architecture style: data and functionality are considered resources, resources are manipulated using a fixed set of operations, resources can be represented in multiple formats, communication between the client and endpoint is stateless
+- features: automatic configuration, starter dependencies, command line interface, actuator
+- automatic configuration: time saving feature, configures application based on libraries, maven dependencies configured automatically
+- actuator: monitor running application, manage via HTTP endpoints or jmx, health status, metrics, loggers, audit events, HTTP Trace
+- @SpringBootApplication annotation
+- H2 database can be used with spring boot
+- @RestController to create a controller
+- custom endpoints are very useful, just be careful and very specific when using them
+- testing exceptions and functionalities are very important when creating a springbootapplication
+- microservice architectures are very popular
+- asynchronous processing is becoming more frequently used in microservices
+- OAuth 2.0 can be very useful in a spring application
+- security is very important with microservices
+- there are many different configuration options with OAuth
+- status quo can always be improved upon
+- tracing plays a very important role in micorservices
